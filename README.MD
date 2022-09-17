@@ -1,5 +1,3 @@
-<p align="center"><img src="https://res.cloudinary.com/wba-indonesia/image/upload/v1598387833/logo_wba_dafkys.png" width="400"></p>
-
 <p align="center">
 </p>
 
@@ -32,7 +30,7 @@ This is a starter kit to build application using Laravel framework. This kit fea
 - Copy .env.example to .env
 - Configure database and other info in .env file
 - Open terminal and prompt to project root directory
-- Run `composer install`
+- Run `composer install / composer update`
 - Run `php artisan key:generate`
 - Run `php artisan jwt:secret`
 - Run `php artisan db:seed --class=StarterDataSeeder`
@@ -49,10 +47,6 @@ Still doesn't have. Maybe in the future.
 ## Contributing
 
 We will talk about it later.
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within this project, please send an e-mail to WBA Indonesia via [devops@wbaindonesia.com](mailto:devops@wbaindonesia.com). All security vulnerabilities will be promptly addressed.
 
 ## License
 

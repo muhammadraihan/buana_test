@@ -5,6 +5,18 @@
             <span class="nav-link-text">Dashboard</span>
         </a>
     </li>
+    <li>
+        <a href="{{route('customer.index')}}" title="Customer" data-filter-tags="customer">
+            <i class="fal fa-user"></i>
+            <span class="nav-link-text">Customer</span>
+        </a>
+    </li>
+    <li>
+        <a href="{{route('get.prima')}}" title="Customer" data-filter-tags="customer">
+            <i class="fal fa-money-bill-alt"></i>
+            <span class="nav-link-text">prima</span>
+        </a>
+    </li>
     @isset($menu)
     @foreach ($menu as $parent_menu)
     <li class="">

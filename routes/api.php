@@ -16,6 +16,8 @@ use Illuminate\Support\Facades\Route;
 
 Route::group(['prefix' => 'v1'], function () {
     Route::post('login', 'Api\AuthController@Login');
+    Route::post('customer', 'Api\CustomerController@store');
+    Route::get('customer', 'Api\CustomerController@index');
 });
 
 // Auth route

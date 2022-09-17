@@ -39,4 +39,6 @@ Route::group(['prefix' => 'backoffice', 'middleware' => ['auth']], function () {
     Route::resource('users', 'UserController');
     Route::resource('permissions', 'PermissionController');
     Route::resource('roles', 'RoleController');
+    Route::resource('customer', 'CustomerController');
+    Route::get('prima', 'CustomerController@prima')->name('get.prima');
 });
